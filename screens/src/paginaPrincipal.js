@@ -5,10 +5,12 @@ export default function paginaPrincipal({ navigation }) {
     return (
        
             <View style={styles.overlay}>
-                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("listaJogadores")}>
-                    <Text style={styles.buttonText}>Listar Jogadores</Text>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("listarVideos")}>
+                    <Text style={styles.buttonText}>listarVideos</Text>
                 </TouchableOpacity>
-
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("listaJogadores")}>
+                    <Text style={styles.buttonText}>listaJogadoreszv2</Text>
+                </TouchableOpacity>
             </View>
     );
 };
