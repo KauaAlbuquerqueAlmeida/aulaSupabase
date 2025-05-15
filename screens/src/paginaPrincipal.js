@@ -6,10 +6,16 @@ export default function paginaPrincipal({ navigation }) {
        
             <View style={styles.overlay}>
                 <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("listarVideos")}>
-                    <Text style={styles.buttonText}>listarVideos</Text>
+                    <Text style={styles.buttonText}>lista de Videos</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("listaJogadores")}>
-                    <Text style={styles.buttonText}>listaJogadoreszv2</Text>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("listarVideos")}>
+                    <Text style={styles.buttonText}>lista de Imagens</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("UploadVideo")}>
+                    <Text style={styles.buttonText}>Upload de videos</Text>
+                </TouchableOpacity>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("UploadImagens")}>
+                    <Text style={styles.buttonText}>Upload de Fotos</Text>
                 </TouchableOpacity>
             </View>
     );
