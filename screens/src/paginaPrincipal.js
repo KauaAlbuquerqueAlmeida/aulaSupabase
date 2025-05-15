@@ -8,15 +8,16 @@ export default function paginaPrincipal({ navigation }) {
                 <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("listarVideos")}>
                     <Text style={styles.buttonText}>lista de Videos</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("listarVideos")}>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("listarImagens")}>
                     <Text style={styles.buttonText}>lista de Imagens</Text>
                 </TouchableOpacity>
                 <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("UploadVideo")}>
                     <Text style={styles.buttonText}>Upload de videos</Text>
                 </TouchableOpacity>
-                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("UploadImagens")}>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Caregarimagem")}>
                     <Text style={styles.buttonText}>Upload de Fotos</Text>
                 </TouchableOpacity>
+                
             </View>
     );
 };
