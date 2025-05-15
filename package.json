@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-navigation/native": "^7.1.9",
     "@react-navigation/native-stack": "^7.3.13",
     "@supabase/supabase-js": "^2.49.4",
     "axios": "^1.9.0",
@@ -16,7 +17,15 @@
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
     "react-native": "0.79.2",
+<<<<<<< HEAD
     "expo-av": "~15.1.4"
+=======
+    "react-native-gesture-handler": "^2.25.0",
+    "react-native-reanimated": "^3.17.5",
+    "react-native-safe-area-context": "^5.4.0",
+    "react-native-screens": "^4.10.0",
+    "react-native-vector-icons": "^10.2.0"
+>>>>>>> 7a8f1dae0fc3b2953beca13e24c050e30a0ed370
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
