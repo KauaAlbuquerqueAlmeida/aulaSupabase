@@ -1,6 +1,6 @@
 import { Alert } from 'react-native';
 import * as FileSystem from 'expo-file-system';
-import { supabase } from './supabaseClient';
+import { supabase } from '../../supabaseConfig';
 const uploadImage = async (uri) => {
     if (!uri) {
       Alert.alert("Erro", "Nenhuma imagem selecionada.");

@@ -3,7 +3,7 @@ import { View, Button, Alert, ActivityIndicator } from "react-native";
 import * as DocumentPicker from "expo-document-picker";
 import { Picker } from "@react-native-picker/picker";
 import * as FileSystem from "expo-file-system";
-import { supabase } from "./supabaseConfig";
+import { supabase } from "../../supabaseConfig";
 
 export default function UploadVideo({ navigation }) {
   const [video, setVideo] = useState(null);
