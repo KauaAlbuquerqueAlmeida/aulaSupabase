@@ -6,7 +6,7 @@ import PaginaPrincipal from "./screens/src/paginaPrincipal";
 import listarImagens from "./screens/src/listarImagens";
 import listarVideos from "./screens/src/listarVideos";
 import UploadVideo from "./screens/src/uploadVideos";
-import UploadImagens from "./screens/src/uploadImagens";
+import UploadImagens from "./screens/src/UploadImagens";
 
 
 const Stack = createNativeStackNavigator();

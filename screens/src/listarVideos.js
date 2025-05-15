@@ -1,5 +1,5 @@
 import { Video } from "expo-av";
-import { supabase } from "../supabaseConfig";
+import { supabase } from "../../supabaseConfig";
 import { Picker } from "@react-native-picker/picker";
 
 const bucketName = "videos";
